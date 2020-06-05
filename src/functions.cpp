@@ -119,5 +119,9 @@ vector<unsigned int> extractNumbersFromMap(map<string, string>)
 // algorithms
 unsigned int EuclideanAlgorithm(unsigned int M, unsigned int N)
 {
-    return 0;
+    if (M == N)
+        return(M);
+    else if (M > N)
+        EuclideanAlgorithm(M - N, N);
+    else EuclideanAlgorithm(M, N - M);
 }

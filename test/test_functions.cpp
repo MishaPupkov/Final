@@ -288,12 +288,12 @@ TEST(extractNumbersFromMap, DISABLED_NoNumbersInMap)
 }
 
 // EuclideanAlgorithm
-TEST(EuclideanAlgorithm, DISABLED_CoprimeIntegers)
+TEST(EuclideanAlgorithm, CoprimeIntegers)
 {
     EXPECT_EQ(1, EuclideanAlgorithm(35, 88));
 }
 
-TEST(extractNumbersFromMap, DISABLED_NotCoprime)
+TEST(extractNumbersFromMap, NotCoprime)
 {
     EXPECT_EQ(13, EuclideanAlgorithm(65, 169));
 }
